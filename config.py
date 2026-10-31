@@ -3,7 +3,7 @@ from os import getenv
 
 API_ID = int(os.environ.get("API_ID", "30247401"))  # Replace "123456" with your actual api_id or use .env
 API_HASH = os.environ.get("API_HASH", "15672484ee3efb90c52f8fcc0339f525")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8817209259:AAFjXo94bksR1Sq-1RKC2TQkPIzUe9PFMNY")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6367695013"))  # Your Telegram user ID
 SUDO_USERS = list(map(int, os.environ.get("SUDO_USERS", "8808620761").split()))  # Space-separated user IDs
